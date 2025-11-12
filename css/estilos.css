@@ -1,17 +1,19 @@
 body {background:
-  #FF9C21;}
-h1{color:white;}
-h2{color:#8F3B07;
-font-family: "Arial", sans-serif;
-font-size: 40px;
-text-align: center;}
-li{color:#4A1D01;
-font-family: "Arial", sans-serif;
-font-size: 35px;}
-h1 {
+    #FF9C21;}
+  h1{color:white;}
+  h2{color:#8F3B07;
   font-family: "Arial", sans-serif;
-  font-size: 50px;
-}
-h1{text-align: center;
-text-decoration: underline;}
- img{width: 500px;}
+  font-size: 40px;
+  text-align: center;}
+  li{color:#4A1D01;
+  font-family: "Arial", sans-serif;
+  font-size: 35px;}
+  h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 50px;
+  }
+  h1{text-align: center;
+  text-decoration: underline;}
+   img{width: 500px;}
+
+   
