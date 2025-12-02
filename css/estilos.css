@@ -1,19 +1,101 @@
-body {background:
-    #FF9C21;}
-  h1{color:white;}
-  h2{color:#8F3B07;
-  font-family: "Arial", sans-serif;
-  font-size: 40px;
-  text-align: center;}
-  li{color:#4A1D01;
-  font-family: "Arial", sans-serif;
-  font-size: 35px;}
-  h1 {
-    font-family: "Arial", sans-serif;
-    font-size: 50px;
-  }
-  h1{text-align: center;
-  text-decoration: underline;}
-   img{width: 500px;}
+/* GENERAL */
+body {
+    background: #FF9C21;
+    font-family: "Poppins", sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
 
-   
+/* MODO OSCURO */
+.dark-mode {
+    background: #1e1e1e;
+    color: #ffffff;
+}
+
+/* HEADER */
+header {
+    background: #F7C02A;
+    border-bottom: 3px solid #8F3B07;
+}
+
+/* TITULO */
+h1 {
+    color: #8F3B07;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* NAV */
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.nav-links a {
+    color: #4A1D01;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECCIONES */
+h2 {
+    color: #8F3B07;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.ingredientes-list li,
+.preparacion-list li {
+    font-size: 22px;
+    color: #4A1D01;
+}
+
+/* IMÁGENES */
+.receta-img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #F7C02A;
+    border-top: 3px solid #8F3B07;
+}
+
+.apps-footer button {
+    font-size: 18px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #25d366;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    h1 { font-size: 30px; }
+    h2 { font-size: 24px; }
+    .receta-img { width: 90%; }
+}

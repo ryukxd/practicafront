@@ -1,88 +1,128 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Papas fritas con huevo frito</title>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!-- CSS PERSONAL -->
     <link rel="stylesheet" href="./css/estilos.css">
-  </head>
-  <body>
+</head>
 
-  <header>
-    <h1>Papas fritas con huevo frito</h1>
-  </header>
+<body>
 
-  <a href="https://cookpad.com/ar/recetas/167359"target="_blank">receta similar</a>
+    <!-- HEADER -->
+    <header class="d-flex justify-content-between align-items-center p-3 shadow-sm">
+        <h1 class="m-0">Papas fritas con huevo frito</h1>
 
-  <a href="https://www.10000recipe.com/es/6945384/-_Papas_fritas__-_Huevos_revueltos_#google_vignette"target="_blank">receta similar2</a>
+        <div class="d-flex gap-2">
+            <button id="darkBtn" class="btn btn-dark">Modo Oscuro</button>
+            <button id="infoBtn" class="btn btn-warning">Webmaster</button>
+        </div>
+    </header>
 
-  <a href="https://www.myrealfood.app/es/recipe/n9FhbXmICBRuzMuSS2Nf"target="_blank">receta similar3</a>
+    <!-- NAV -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="https://cookpad.com/ar/recetas/167359" target="_blank">Otra receta similar</a></li>
+            <li><a href="https://www.10000recipe.com/es/6945384" target="_blank">Papas con huevo revuelto</a></li>
+            <li><a href="https://es.tastemade.com/videos/bocado-de-huevo-frito-y-papas-fritas/" target="_blank">Bocados de papa</a></li>
+            <li><a href="https://www.lecturas.com/recetas/papas-fritas-caballo-huevos-estrellados-argentina_13075.html" target="_blank">Papas a caballo</a></li>
+        </ul>
+    </nav>
 
-  <a href="https://www.hogarmania.com/cocina/recetas/huevos/huevos-fritos-patatas-fritas-8654.html"target="_blank">receta similar4</a>
+    <!-- INGREDIENTES -->
+    <section class="container my-4">
+        <h2>Ingredientes</h2>
 
-  <section>
-    <h2>Ingredientes</h2>
-    <ul>
-      <li>Papas</li>
-      <li>Aceite</li>
-      <li>Huevos</li>
-      <li>Sal</li>
-  </section>
+        <ul class="ingredientes-list">
+            <li>Papas</li>
+            <li>Aceite</li>
+            <li>Huevos</li>
+            <li>Sal</li>
+        </ul>
+    </section>
 
-    </ul>
+    <!-- PREPARACION -->
+    <section class="container my-4">
+        <h2>Preparación</h2>
 
-<section>
-  <h2>Preparación</h2>
-<ol>
-  <li>Lavar las papas</li>
-  <li>Pelar las papas y cortarlas en tiras</li>
-  <li>Vertir el aceite en una sartén. Esperar que el aceite se caliente a fuego medio</li>
-  <li>Poner las papas a freir</li>
-  <li>Cuando esten doradas remover del aceite y secarlas con servilleta</li>
-  <li>Romper los huevos y ponerlos a freir. Cocinar los huevos a gusto</li>
-  <li>Poner los huevos y las papas fritas en un plato y ponerle sal a gusto</li>
+        <ol class="preparacion-list">
+            <li>Lavar las papas.</li>
+            <li>Pelar y cortar en tiras.</li>
+            <li>Calentar aceite.</li>
+            <li>Freír las papas.</li>
+            <li>Retirar y secar con servilleta.</li>
+            <li>Freír los huevos.</li>
+            <li>Servir con sal a gusto.</li>
+        </ol>
+    </section>
 
-</section>
+    <!-- IMÁGENES + VIDEO + MAPA -->
+    <section class="container my-4 text-center">
 
-</ol>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKgsFcsBAX845aNeVd4xudmYPPEXRrtaLiGg&s"
+             alt="Plato de papas fritas con huevo" class="receta-img mb-4">
 
+        <div class="ratio ratio-16x9 mb-4">
+            <iframe src="https://www.youtube.com/embed/p6wz1HjEPNk?si=LFjXaNEpU8v5seEV"
+                    allowfullscreen></iframe>
+        </div>
 
-<section>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKgsFcsBAX845aNeVd4xudmYPPEXRrtaLiGg&s" alt="">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p6wz1HjEPNk?si=LFjXaNEpU8v5seEV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1022.0659373156693!2d4.657295258871758!3d50.46697480558701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1842de3b7c0c3%3A0xe683f561469d2298!2sL&#39;Arbre%20Aux%20Saveurs!5e0!3m2!1ses-419!2sar!4v1760561825082!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="ratio ratio-4x3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1022.0659373156693!2d4.657295258871758!3d50.46697480558701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1842de3b7c0c3%3A0xe683f561469d2298!2sL'Arbre%20Aux%20Saveurs!5e0!3m2!1ses-419!2sar!4v1760561825082!5m2!1ses-419!2sar"
+                    style="border:0;" allowfullscreen loading="lazy"></iframe>
+        </div>
+    </section>
 
- 
-</section>
+    <!-- FOOTER -->
+    <footer class="p-4 d-flex flex-column justify-content-center align-items-center">
 
-  </a>
-</div>
+        <p class="m-0 mb-2">Aplicaciones</p>
 
-<footer>
-  div class="whatsapp-container">
-  <a href="https://wa.me/5491139009518?text=¡Hola!%20Vi%20tu%20página%20web%20y%20quiero%20más%20info."
-     target="_blank" class="whatsapp-float">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-         alt="WhatsApp" class="whatsapp-icon">
+        <div class="apps-footer d-flex gap-3">
 
-</footer>
-<br>
-<footer>
-  <p>Seguinos en nuestras redes:</p>
-  <a href="https://www.instagram.com"target="_blank"><img src="./imagenes/insta.jpg" alt="instagram"></a>
+          <a href="https://www.instagram.com" target="_blank">
+            <button class="btn btn-outline-dark">Instagram</button>
+            </a>
+            <a href="https://www.tiktok.com" target="_blank">
+            <button class="btn btn-outline-dark">TikTok</button>
+            </a>
+            <a href="https://www.youtube.com" target="_blank">
+            <button class="btn btn-outline-dark">YouTube</button>
+            </a>
 
-  <a href="https://www.tiktok.com" target="_blank">
-  <img src="./imagenes/tiktok.jpg" alt="tiktok">
-  </a>
-  <a href="https://www.youtube.com" target="_blank">
-    <img src="./imagenes/youtube.jpg" alt="youtube">
-  </a>
-</footer>
+        </div>
+    </footer>
 
+    <!-- WHATSAPP FLOAT -->
+    <div class="whatsapp-container">
+        <a href="https://wa.me/5491139009518?text=Hola!" target="_blank" class="whatsapp-float">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                 alt="WhatsApp" class="whatsapp-icon">
+        </a>
+    </div>
 
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- JS PERSONAL -->
+    <script>
+        document.getElementById("darkBtn").onclick = () => {
+            document.body.classList.toggle("dark-mode");
+        };
 
+        document.getElementById("infoBtn").onclick = () => {
+            alert("Webmaster: Iris — Ciudad: San Miguel.");
+        };
+    </script>
 
-
-
-  </body>
+</body>
 </html>
